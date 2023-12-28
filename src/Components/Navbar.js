@@ -24,21 +24,24 @@ export default function Navbar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="#">
-                  <button type="button" class="btn btn-primary ">
+                  <button type="button" className="btn btn-primary ">
                     Home
                   </button>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="Login">
-                  <button type="button" class="btn btn-success mx-2 text-white">
+                  <button
+                    type="button"
+                    className="btn btn-success mx-2 text-white"
+                  >
                     Login
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="Signup">
-                  <button type="button" class="btn btn-warning text-white">
+                  <button type="button" className="btn btn-warning text-white">
                     Sign Up
                   </button>
                 </Link>
